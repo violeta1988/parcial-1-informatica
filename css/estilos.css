@@ -7,15 +7,43 @@
 
 /* imagen de fondo */
 body {
-    background-image: url(img/fondo.png); 
+  font-family: "Abel", sans-serif;
+    background-image: url(../img/fondo.png); 
     background-repeat: repeat; 
     background-attachment: fixed; 
-    background-size: cover;
+   
   }
-
+/*coloco unfondo blanco transparente para que se vea la imagen de fondo*/
 .contenedor {
-    background-image: url(img/fondo.png); 
-    background-repeat: repeat; 
-    background-attachment: fixed; 
-    background-size: cover;
+    background-color: ghostwhite; 
+   padding: 50px;
+   width: 80%;
+   margin: auto;
+   text-align: center;
+
 }
+/*alineacion de menu ya que hay otro ul de obras que van con viñetas*/
+.menu{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+.menu li{
+  display: inline-block;
+margin-right: 20px;
+}
+
+.obras{
+ 
+  text-align: left;
+
+}
+.obras li{
+  display: list-item;
+}
+
+h3
+{color: lightskyblue;}
+
+h1
+{color: palevioletred;}
