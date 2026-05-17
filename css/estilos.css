@@ -47,14 +47,27 @@ h3
 {color: lightskyblue;}
 
 h1
-{color: palevioletred;}
+{
+  background-color: palevioletred;
+color: white;
+font-size: 50px;
+}
 
 footer{
     background-color: black;
-    padding: 20px;
+    padding: 10px;
     color: whitesmoke;
+    font-size: 15px;
 }
 address{
     background-color: black;
     color: whitesmoke;
+}
+
+
+div {
+    padding: 2rem; 
+}
+article {
+  background-color: palevioletred;
 }
