@@ -44,7 +44,8 @@ margin-right: 20px;
 }
 
 h3
-{color: lightskyblue;}
+{color: whitesmoke;
+}
 
 h1
 {
@@ -68,6 +69,11 @@ address{
 div {
     padding: 2rem; 
 }
+/*despues de releer las indicaciones del parcial modificque y agregue mas article y ademas estilos para que se diferencien*/
 article {
-  background-color: palevioletred;
+  background-color: lightskyblue;
+  padding: 30px;
+  margin: auto;
+  
+
 }
